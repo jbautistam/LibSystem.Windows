@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSystem.Windows", "src\LibSystem.Windows.csproj", "{15653E4E-C834-4DB7-8D99-E80C32DE7B3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CosmosLocal|Any CPU = CosmosLocal|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Integracion|Any CPU = Integracion|Any CPU
+		Produccion|Any CPU = Produccion|Any CPU
+		Pruebas|Any CPU = Pruebas|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15653E4E-C834-4DB7-8D99-E80C32DE7B3A}.CosmosLocal|Any CPU.ActiveCfg = CosmosLocal|Any CPU
+		{15653E4E-C834-4DB7-8D99-E80C32DE7B3A}.CosmosLocal|Any CPU.Build.0 = CosmosLocal|Any CPU
+		{15653E4E-C834-4DB7-8D99-E80C32DE7B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15653E4E-C834-4DB7-8D99-E80C32DE7B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15653E4E-C834-4DB7-8D99-E80C32DE7B3A}.Integracion|Any CPU.ActiveCfg = Integracion|Any CPU
+		{15653E4E-C834-4DB7-8D99-E80C32DE7B3A}.Integracion|Any CPU.Build.0 = Integracion|Any CPU
+		{15653E4E-C834-4DB7-8D99-E80C32DE7B3A}.Produccion|Any CPU.ActiveCfg = Produccion|Any CPU
+		{15653E4E-C834-4DB7-8D99-E80C32DE7B3A}.Produccion|Any CPU.Build.0 = Produccion|Any CPU
+		{15653E4E-C834-4DB7-8D99-E80C32DE7B3A}.Pruebas|Any CPU.ActiveCfg = Pruebas|Any CPU
+		{15653E4E-C834-4DB7-8D99-E80C32DE7B3A}.Pruebas|Any CPU.Build.0 = Pruebas|Any CPU
+		{15653E4E-C834-4DB7-8D99-E80C32DE7B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15653E4E-C834-4DB7-8D99-E80C32DE7B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C20178F1-0BA1-4414-A4E8-DDC5E3736C52}
+	EndGlobalSection
+EndGlobal
