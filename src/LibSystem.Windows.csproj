@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+		<TargetFramework>net8.0</TargetFramework>
+		<RootNamespace>Bau.Libraries.$(MSBuildProjectName)</RootNamespace>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+	</PropertyGroup>
+	<ItemGroup>
+		<Compile Remove="API\**" />
+		<Compile Remove="KeyboardHook\Exceptions\**" />
+		<EmbeddedResource Remove="API\**" />
+		<EmbeddedResource Remove="KeyboardHook\Exceptions\**" />
+		<None Remove="API\**" />
+		<None Remove="KeyboardHook\Exceptions\**" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Remove="Processes\CmdProcessor.cs" />
+		<Compile Remove="Utilities\IPClientService.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Utilities\" />
+	</ItemGroup>
+</Project>
