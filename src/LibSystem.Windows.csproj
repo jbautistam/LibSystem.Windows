@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<RestoreProjectStyle>PackageReference</RestoreProjectStyle>
-		<TargetFramework>net8.0</TargetFramework>
+		<TargetFramework>net8.0-windows</TargetFramework>
 		<RootNamespace>Bau.Libraries.$(MSBuildProjectName)</RootNamespace>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
@@ -12,10 +12,13 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<Compile Remove="API\**" />
+		<Compile Remove="Cryptography\**" />
 		<Compile Remove="KeyboardHook\Exceptions\**" />
 		<EmbeddedResource Remove="API\**" />
+		<EmbeddedResource Remove="Cryptography\**" />
 		<EmbeddedResource Remove="KeyboardHook\Exceptions\**" />
 		<None Remove="API\**" />
+		<None Remove="Cryptography\**" />
 		<None Remove="KeyboardHook\Exceptions\**" />
 	</ItemGroup>
 	<ItemGroup>
